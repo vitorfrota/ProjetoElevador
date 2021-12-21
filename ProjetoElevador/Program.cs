@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoElevador.Models;
+using System;
 
 namespace ProjetoElevador
 {
@@ -6,7 +7,7 @@ namespace ProjetoElevador
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Bem-vindo ao Meu Elevador");
         }
     }
 }
