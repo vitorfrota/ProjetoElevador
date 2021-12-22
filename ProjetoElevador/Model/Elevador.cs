@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProjetoElevador.Models
+namespace ProjetoElevador.Model
 {
     internal class Elevador
     {
-        public int AndarAtual { get; set; }
+        public int AndarAtual { get; set; } = 0; // o 0 representa o térreo
         public int TotalAndar { get; set; }
         public int Capacidade { get; set; }
-        public int QuantidadePessoa { get; set; }
+        public int QuantidadePessoa { get; set; } = 0;
 
         public void Inicializar(int capacidade, int totalAndar)
         {
